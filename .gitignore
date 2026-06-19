@@ -1,0 +1,38 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Internal docs — planning/product notes stay out of the repo
+PLAN.md
+PRODUCT.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# Dev session cache — local only, can be large
+api/local_store/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor / tool
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/

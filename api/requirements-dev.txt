@@ -1,0 +1,5 @@
+# Local development extras (Flask wrapper) — production uses requirements.txt
+-r requirements.txt
+flask==3.1.1
+flask-cors==5.0.1
+python-dotenv==1.1.0

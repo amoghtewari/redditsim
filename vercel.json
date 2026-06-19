@@ -1,0 +1,22 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/clone.py": {
+      "memory": 1024,
+      "maxDuration": 15
+    },
+    "api/respond.py": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/session.py": {
+      "memory": 256,
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    { "source": "/api/session/:id", "destination": "/api/session?id=:id" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}

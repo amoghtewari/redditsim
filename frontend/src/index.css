@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(255, 69, 0, 0.15);
+}
+
+/* Slim, unobtrusive scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(27, 27, 28, 0.18) transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(27, 27, 28, 0.18);
+  border-radius: 9999px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(27, 27, 28, 0.3);
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Consistent, classy keyboard-focus ring */
+:focus-visible {
+  outline: 2px solid rgba(0, 121, 211, 0.5);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Numbers (scores, timers) align cleanly */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

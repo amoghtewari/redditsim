@@ -1,0 +1,10 @@
+# Only matters for CLI deploys — git-connected deploys use repo contents
+api/local_store
+api/__pycache__
+frontend/node_modules
+frontend/dist
+.env
+.env.local
+PLAN.md
+PRODUCT.md
+.DS_Store
