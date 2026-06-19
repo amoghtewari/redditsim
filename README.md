@@ -6,6 +6,30 @@ Clone any Reddit thread and argue with AI bots that actually sound like Redditor
 
 ---
 
+## Walkthrough
+
+### 1. Homepage — paste a URL or pick a featured thread
+
+![Homepage](screenshots/01-homepage.png)
+
+### 2. Featured threads with hover preview
+
+![Pick a URL](screenshots/02-pick-url.png)
+
+### 3. Choose your bot persona
+
+![Pick a persona](screenshots/03-pick-persona.png)
+
+### 4. The simulation — original post + full comment tree
+
+![Simulation view](screenshots/04-simulation.png)
+
+### 5. Reply anywhere — the AI fires back in character
+
+![AI responses](screenshots/05-ai-responses.png)
+
+---
+
 ## What it does
 
 Paste a Reddit post URL. RedditSim fetches the original post and its top comments via the Arctic Shift archive, then lets you reply anywhere in the thread. An AI pipeline generates responses that match the subreddit's culture, persona, and tone — complete with predicted upvote scores, fact-checking, and consistent per-bot identities across the conversation.
